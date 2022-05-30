@@ -51,7 +51,7 @@ namespace EagleMonitor.Forms
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "executable@2x.png");
+            this.imageList1.Images.SetKeyName(0, "etable@2x.png");
             this.imageList1.Images.SetKeyName(1, "file-dll@2x.png");
             this.imageList1.Images.SetKeyName(2, "file-binary@2x.png");
             // 

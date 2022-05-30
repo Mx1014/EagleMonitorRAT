@@ -87,7 +87,7 @@
     <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
@@ -458,7 +458,7 @@
     <None Include="Resources\imageres_110.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\executable%402x.png" />
+    <None Include="Resources\etable%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imageres_15.ico" />

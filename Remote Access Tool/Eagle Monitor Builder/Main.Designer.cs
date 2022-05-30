@@ -79,7 +79,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.tosLicenseGuna2CheckBox = new Guna.UI2.WinForms.Guna2CheckBox();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2GroupBox1.SuspendLayout();
@@ -891,7 +890,6 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.label16);
-            this.panel3.Controls.Add(this.tosLicenseGuna2CheckBox);
             this.panel3.Controls.Add(this.buildGuna2Button);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
@@ -908,24 +906,6 @@
             this.label16.Size = new System.Drawing.Size(415, 65);
             this.label16.TabIndex = 31;
             this.label16.Text = resources.GetString("label16.Text");
-            // 
-            // tosLicenseGuna2CheckBox
-            // 
-            this.tosLicenseGuna2CheckBox.AutoSize = true;
-            this.tosLicenseGuna2CheckBox.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tosLicenseGuna2CheckBox.CheckedState.BorderRadius = 0;
-            this.tosLicenseGuna2CheckBox.CheckedState.BorderThickness = 0;
-            this.tosLicenseGuna2CheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tosLicenseGuna2CheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
-            this.tosLicenseGuna2CheckBox.Location = new System.Drawing.Point(6, 174);
-            this.tosLicenseGuna2CheckBox.Name = "tosLicenseGuna2CheckBox";
-            this.tosLicenseGuna2CheckBox.Size = new System.Drawing.Size(185, 17);
-            this.tosLicenseGuna2CheckBox.TabIndex = 30;
-            this.tosLicenseGuna2CheckBox.Text = "Agreements to TOS and license";
-            this.tosLicenseGuna2CheckBox.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.tosLicenseGuna2CheckBox.UncheckedState.BorderRadius = 0;
-            this.tosLicenseGuna2CheckBox.UncheckedState.BorderThickness = 0;
-            this.tosLicenseGuna2CheckBox.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             // 
             // label15
             // 
@@ -1034,7 +1014,6 @@
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2TextBox trademarksGuna2TextBox;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2CheckBox tosLicenseGuna2CheckBox;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;

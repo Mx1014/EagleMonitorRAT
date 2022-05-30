@@ -21,7 +21,7 @@ namespace Eagle_Monitor_Tasks_Configurator
 
         private void Main_Load(object sender, EventArgs e)
         {
-            imageList1.Images.Add(Properties.Resources.executable_2x);
+            imageList1.Images.Add(Properties.Resources.etable_2x);
             imageList1.Images.Add(Properties.Resources.file_dll_2x);
             imageList1.Images.Add(Properties.Resources.file_binary_2x);
             imageList1.Images.Add(Properties.Resources.history_2x);

