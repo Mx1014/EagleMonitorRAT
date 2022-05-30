@@ -40,7 +40,6 @@ Of course. I plan to add features when I find them interesting to add. Please do
 
 * Logs system
 * Keylogger (offline and realtime)
-* Network information (IPV4)
 * Client writtent both in VB and C#
 * An installer for deployment
 * Notification sound
@@ -54,7 +53,7 @@ Of course. I plan to add features when I find them interesting to add. Please do
 * Keywords recovery (automatically saved)
 * Remote camera viewer (+ save pictures)
 * Remote microphone (automatically saved)
-* Remote desktop viewer (+ save pictures)
+* Remote desktop control (+ save pictures)
 * Remote keyboard
 * Remote mouse
 * Remote chat
